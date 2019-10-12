@@ -15,7 +15,8 @@ app.Tracking = (function () {
 
     // --------------------------------------------------------------------------------------
     function handleExit(e) {
-        te_html.click('clickTAG', 'https://www.blockadvisors.com/');
+        // te_html.click('clickTAG', 'https://www.blockadvisors.com/');
+        window.open(clickTag, "_blank");
     }
 
     // --------------------------------------------------------------------------------------
